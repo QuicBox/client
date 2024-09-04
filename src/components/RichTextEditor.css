@@ -1,0 +1,28 @@
+.rich-text-editor {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rich-text-editor h5 {
+    margin-bottom: 15px;
+    color: #495057;
+  }
+  
+  .ql-editor {
+    min-height: 150px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-right: 15px;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

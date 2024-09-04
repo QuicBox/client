@@ -1,0 +1,49 @@
+/* NewsFeed.css */
+
+.news-feed {
+    padding-top: 10px;
+  }
+  
+  .post-card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .post-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .post-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .post-actions .btn {
+    margin-right: 10px;
+  }
+  
+  .slider-container {
+    flex-grow: 0; /* Prevents the slider from growing */
+    margin-left: auto; /* Aligns the slider to the right */
+    margin-right: 20px; /* Adds a gap from the right side */
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .MuiSlider-thumb {
+    width: 20px; /* Thumb size */
+    height: 20px; /* Thumb size */
+    background-color: #ffffff; /* Thumb color (white) */
+  }
+  
+  .MuiSlider-track {
+    height: 0px; /* Hide the track */
+  }
+  
+  .MuiSlider-rail {
+    height: 8px; /* Rail height */
+    background: linear-gradient(to right, red, orange, yellow, green); /* Gradient from red to green with smooth transitions */
+  }
+  
